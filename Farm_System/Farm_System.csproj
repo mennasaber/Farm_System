@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{35ECF522-068B-4A8A-8224-19E380A2164B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Farm_System</RootNamespace>
+    <AssemblyName>Farm_System</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Bunifu UI WinForms 1.5.6.0\Bunifu UI WinForms 1.5.6.0\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data">
+      <HintPath>..\..\..\..\Programs\mysql-for-visualstudio-1.2.8-noinstall\15.0v461\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ad.Designer.cs">
+      <DependentUpon>ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addavcrops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="addavcrops.Designer.cs">
+      <DependentUpon>addavcrops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_ads.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="add_ads.Designer.cs">
+      <DependentUpon>add_ads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_offer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_offer.Designer.cs">
+      <DependentUpon>add_offer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="av_crop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="av_crop.Designer.cs">
+      <DependentUpon>av_crop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="av_crops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="av_crops.Designer.cs">
+      <DependentUpon>av_crops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complaint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="complaint.Designer.cs">
+      <DependentUpon>complaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="complaints.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="complaints.Designer.cs">
+      <DependentUpon>complaints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnection.cs" />
+    <Compile Include="farmer_ads.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="farmer_ads.Designer.cs">
+      <DependentUpon>farmer_ads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forget_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forget_password.Designer.cs">
+      <DependentUpon>forget_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_admin.Designer.cs">
+      <DependentUpon>main_admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_farmer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_farmer.Designer.cs">
+      <DependentUpon>main_farmer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_retailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_retailer.Designer.cs">
+      <DependentUpon>main_retailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main_supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main_supplier.Designer.cs">
+      <DependentUpon>main_supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="offer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="offer.Designer.cs">
+      <DependentUpon>offer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="offers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="offers.Designer.cs">
+      <DependentUpon>offers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="requestcrops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="requestcrops.Designer.cs">
+      <DependentUpon>requestcrops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="requested_crop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="requested_crop.Designer.cs">
+      <DependentUpon>requested_crop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="requested_crops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="requested_crops.Designer.cs">
+      <DependentUpon>requested_crops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="result_search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="result_search.Designer.cs">
+      <DependentUpon>result_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="search.Designer.cs">
+      <DependentUpon>search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="search_av_crops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="search_av_crops.Designer.cs">
+      <DependentUpon>search_av_crops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="statue_ads.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="statue_ads.Designer.cs">
+      <DependentUpon>statue_ads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subcomplaints.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="subcomplaints.Designer.cs">
+      <DependentUpon>subcomplaints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tips.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="tips.Designer.cs">
+      <DependentUpon>tips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcomplaint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewcomplaint.Designer.cs">
+      <DependentUpon>viewcomplaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcomplaints.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewcomplaints.Designer.cs">
+      <DependentUpon>viewcomplaints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewoffer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewoffer.Designer.cs">
+      <DependentUpon>viewoffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewoffers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewoffers.Designer.cs">
+      <DependentUpon>viewoffers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewreqcrop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewreqcrop.Designer.cs">
+      <DependentUpon>viewreqcrop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewreqcrops.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewreqcrops.Designer.cs">
+      <DependentUpon>viewreqcrops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_ads.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view_ads.Designer.cs">
+      <DependentUpon>view_ads.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_tip.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view_tip.Designer.cs">
+      <DependentUpon>view_tip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_tips.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view_tips.Designer.cs">
+      <DependentUpon>view_tips.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ad.resx">
+      <DependentUpon>ad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addavcrops.resx">
+      <DependentUpon>addavcrops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_ads.resx">
+      <DependentUpon>add_ads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_offer.resx">
+      <DependentUpon>add_offer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="av_crop.resx">
+      <DependentUpon>av_crop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="av_crops.resx">
+      <DependentUpon>av_crops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complaint.resx">
+      <DependentUpon>complaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="complaints.resx">
+      <DependentUpon>complaints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="farmer_ads.resx">
+      <DependentUpon>farmer_ads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forget_password.resx">
+      <DependentUpon>forget_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_admin.resx">
+      <DependentUpon>main_admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_farmer.resx">
+      <DependentUpon>main_farmer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_retailer.resx">
+      <DependentUpon>main_retailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main_supplier.resx">
+      <DependentUpon>main_supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="offer.resx">
+      <DependentUpon>offer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="offers.resx">
+      <DependentUpon>offers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="requestcrops.resx">
+      <DependentUpon>requestcrops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="requested_crop.resx">
+      <DependentUpon>requested_crop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="requested_crops.resx">
+      <DependentUpon>requested_crops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="result_search.resx">
+      <DependentUpon>result_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search_av_crops.resx">
+      <DependentUpon>search_av_crops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="statue_ads.resx">
+      <DependentUpon>statue_ads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subcomplaints.resx">
+      <DependentUpon>subcomplaints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tips.resx">
+      <DependentUpon>tips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewcomplaint.resx">
+      <DependentUpon>viewcomplaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewcomplaints.resx">
+      <DependentUpon>viewcomplaints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewoffer.resx">
+      <DependentUpon>viewoffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewoffers.resx">
+      <DependentUpon>viewoffers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewreqcrop.resx">
+      <DependentUpon>viewreqcrop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewreqcrops.resx">
+      <DependentUpon>viewreqcrops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_ads.resx">
+      <DependentUpon>view_ads.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_tip.resx">
+      <DependentUpon>view_tip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_tips.resx">
+      <DependentUpon>view_tips.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

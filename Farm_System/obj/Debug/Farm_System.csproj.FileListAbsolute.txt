@@ -1,0 +1,95 @@
+E:\NONA\farm system\Farm_System\Farm_System\bin\Debug\Farm_System.exe.config
+E:\NONA\farm system\Farm_System\Farm_System\bin\Debug\Farm_System.exe
+E:\NONA\farm system\Farm_System\Farm_System\bin\Debug\Farm_System.pdb
+E:\NONA\farm system\Farm_System\Farm_System\bin\Debug\Bunifu.Core.dll
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.Form1.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.Properties.Resources.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.csproj.GenerateResource.Cache
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.exe
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.pdb
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.Form2.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.forget_password.resources
+E:\NONA\farm system\Farm_System\Farm_System\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.main_admin.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.complaints.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.complaint.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.tips.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.add_offer.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.av_crop.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.av_crops.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.main_farmer.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.main_retailer.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.offer.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.offers.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.result_search.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.search.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.ad.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.add_ads.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.farmer_ads.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.main_supplier.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.requested_crop.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.requested_crops.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.statue_ads.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.view_ads.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.search_av_crops.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.view_tip.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.view_tips.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.addavcrops.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.subcomplaints.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.viewoffer.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.viewreqcrop.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.viewreqcrops.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.requestcrops.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.viewcomplaint.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.viewcomplaints.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.viewoffers.resources
+E:\NONA\farm system\Farm_System\Farm_System\obj\Debug\Farm_System.csprojResolveAssemblyReference.cache
+F:\NONA\Farm_System(final)\Farm_System\Farm_System\bin\Debug\Farm_System.exe.config
+F:\NONA\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.exe
+F:\NONA\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.pdb
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\bin\Debug\Farm_System.exe.config
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.exe
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.pdb
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\bin\Debug\Farm_System.exe
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\bin\Debug\Farm_System.pdb
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\bin\Debug\mysql.data.dll
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\bin\Debug\Bunifu.Core.dll
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.csprojResolveAssemblyReference.cache
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.ad.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.addavcrops.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.add_ads.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.add_offer.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.av_crop.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.av_crops.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.complaint.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.complaints.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.farmer_ads.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.forget_password.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.Form1.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.Form2.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.main_admin.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.main_farmer.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.main_retailer.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.main_supplier.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.offer.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.offers.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.Properties.Resources.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.requestcrops.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.requested_crop.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.requested_crops.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.result_search.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.search.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.search_av_crops.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.statue_ads.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.subcomplaints.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.tips.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.viewcomplaint.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.viewcomplaints.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.viewoffer.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.viewoffers.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.viewreqcrop.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.viewreqcrops.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.view_ads.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.view_tip.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.view_tips.resources
+F:\NONA\C#_Projects\Farm_System(final)\Farm_System\Farm_System\obj\Debug\Farm_System.csproj.GenerateResource.Cache
